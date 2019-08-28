@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Titan One', cursive;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+  }

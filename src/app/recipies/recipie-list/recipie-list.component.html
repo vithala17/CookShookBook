@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-xs-12">
+        <button class="btn btn-success">New recipe</button>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-xs-12">
+        <app-recipie-item 
+        *ngFor="let looper of recipes">
+        [recipie]="looper"></app-recipie-item>
+
+        <!-- <div 
+        *ngFor="let looper of recipies">
+        {{looper}}
+        </div> -->
+    </div>
+</div>
